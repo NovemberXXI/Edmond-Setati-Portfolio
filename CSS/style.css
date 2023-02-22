@@ -46,8 +46,8 @@ a {
 .nav-link {
     position: fixed;
     width: 100%;
-    /* top: 2.5rem; */
-    background-color: #fff;
+    top: 2.5rem;
+    background-color: #0052FD;
 }
 
 .nav-link a {
@@ -82,6 +82,8 @@ a {
     .hamburger {
         display: none;
     }
+
+
 }
 
 img {
@@ -351,6 +353,20 @@ hr {
     .col:nth-child(2),
     .col:nth-child(3) {
         flex-basis: 100%;
+    }
+
+    .swiper {
+        width: 80%;
+        height: min-content;
+    }
+
+    .imager img {
+        width: 80%;
+        height: min-content;
+    }
+
+    .swiper-slide img {
+        height: min-content;
     }
 
 }
