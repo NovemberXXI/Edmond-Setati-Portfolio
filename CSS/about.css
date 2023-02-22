@@ -114,6 +114,7 @@ img {
 }
 
 .download {
+
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -121,6 +122,7 @@ img {
 }
 
 .download>button {
+    cursor: pointer;
     width: 300px;
     height: 50px;
     color: #000;
@@ -131,7 +133,7 @@ img {
 
 .download>button:hover {
     background-color: #88aeff;
-    cursor: pointer;
+
 }
 
 h5 {
