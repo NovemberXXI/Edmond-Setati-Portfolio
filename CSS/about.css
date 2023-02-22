@@ -131,6 +131,7 @@ img {
 
 .download>button:hover {
     background-color: #88aeff;
+    cursor: pointer;
 }
 
 h5 {
